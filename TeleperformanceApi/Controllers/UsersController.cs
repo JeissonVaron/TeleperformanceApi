@@ -43,12 +43,16 @@ namespace TeleperformanceApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserDTO UserDTO)
+        public async Task<ActionResult<UserDTO>> Post([FromBody] UserDTO UserDTO)
         {
-            var existingUser = await context.Users.AnyAsync(user => user.IdentificationNumber == UserDTO.IdentificationNumber);
-            if (existingUser)
+            var existingUser = await context.Users.AsNoTracking().FirstOrDefaultAsync(user => user.IdentificationNumber == UserDTO.IdentificationNumber);
+            if (existingUser != null)
             {
-                return BadRequest("El número de identificación ya fue utilizado");
+                var entityUpdate = mapper.Map<User>(UserDTO);
+                entityUpdate.Id = existingUser.Id;
+                context.Entry(entityUpdate).State = EntityState.Modified;
+                await context.SaveChangesAsync();
+                return NoContent();
             }
             var entity = mapper.Map<User>(UserDTO);
             context.Add(entity);
