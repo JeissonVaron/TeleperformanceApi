@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qDPwZT1VKi3u9tB77K/RxeuzYyTAluggLFJXnt8SqopHJDFn4ESSx16TZQBLJBwxhXsQiHd/ou2RVjeE5AYahw==",
+  "dgSpecHash": "VcbAH7LkCvcS95nESIrbjNaowSpHELe3Vk3EzSz2uXFXGkCe69JVGn41mRw9SwJpECBahxtIW/EMhtUUSFOu1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeiso\\source\\repos\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
+  "projectFilePath": "D:\\Proyectos\\C#\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeiso\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jeiso\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

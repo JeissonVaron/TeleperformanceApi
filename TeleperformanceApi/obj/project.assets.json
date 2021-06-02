@@ -5569,11 +5569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeiso\\source\\repos\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
+      "projectUniqueName": "D:\\Proyectos\\C#\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
       "projectName": "TeleperformanceApi",
-      "projectPath": "C:\\Users\\jeiso\\source\\repos\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
+      "projectPath": "D:\\Proyectos\\C#\\TeleperformanceApi\\TeleperformanceApi\\TeleperformanceApi.csproj",
       "packagesPath": "C:\\Users\\jeiso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeiso\\source\\repos\\TeleperformanceApi\\TeleperformanceApi\\obj\\",
+      "outputPath": "D:\\Proyectos\\C#\\TeleperformanceApi\\TeleperformanceApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeiso\\AppData\\Roaming\\NuGet\\NuGet.Config",
